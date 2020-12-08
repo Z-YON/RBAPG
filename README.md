@@ -20,7 +20,7 @@
 
 * Set the length of password
 
-> RBAPG.setLengthOfGeneratedPassword(min2-max4)
+> RBAPG.setLengthOfGeneratedPassword(min2-max5)
 
 * Set the wordlist content
 > RBAPG.wordlist="name surname year etc."
@@ -47,7 +47,7 @@ RBAPG=RBAPG.RuleBasedAttackPasswordGenerator() #Set the class in a variable.
 
 RBAPG.setLengthOfGeneratedPassword(4)           #Set the length of generated password(if you say 4,
                                                 #this means the length of password can be a maximum of 4 strings long.)
-                                                #Note:this function takes min 2 max 4 int value
+                                                #Note:this function takes min 2 max 5 int value
 
 RBAPG.setWordlistName("Aziz.txt")               #set a name for wordlist. If you leave it blank, default name will be wordlist.txt
 
