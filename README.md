@@ -63,5 +63,5 @@ RBAPG.wordlist="Aziz Kaplan 2001"               #set a content for wordlist. If 
 RBAPG.generate_wordlist()                       #Generate the wordlist
 ```
 
-# Live Example Project:
-> https://www.github.com/AzizKpln/Wordlist_Generator
+# Example Script:
+> https://github.com/AzizKpln/RBAPG-WORDLIST_GENERATOR
