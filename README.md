@@ -14,7 +14,9 @@
 # MODULE USAGE
 * Call The Module
 
-> from RBAPG import RBAPG_
+> import RBAPG
+
+> RBAPG=RBAPG.RuleBasedAttackPasswordGenerator()
 
 * Set the length of password
 
@@ -39,9 +41,9 @@
 
 # Example Usage
 ```
-from RBAPG import RBAPG_
+import RBAPG
 
-RBAPG=RBAPG_.RuleBasedAttackPasswordGenerator() #Set the class in a variable.
+RBAPG=RBAPG.RuleBasedAttackPasswordGenerator() #Set the class in a variable.
 
 RBAPG.setLengthOfGeneratedPassword(4)           #Set the length of generated password(if you say 4,
                                                 #this means the length of password can be a maximum of 4 strings long.)

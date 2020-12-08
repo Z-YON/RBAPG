@@ -15,12 +15,9 @@
 						Youtube:https://www.youtube.com/channel/UCHGEA5g4iFDdBognYNWCJbA
 						Note:Do not use it in illegal projects ;)
 
-[!]To get help about usage, read the README.MD on github or issue these codes:
-	from RBAPG import RBAPG_
-	print(RBAPG_.help_content)
+[!]To get help about usage, read the README.MD on github
+https://www.github.com/AzizKpln/RBAPG
 """
-
-from .functions import *
 import logging
 import sys
 import itertools
@@ -39,7 +36,7 @@ class RuleBasedAttackPasswordGenerator:
 		self.enhancer=0
 		self.logging_module_errors()
 	def __help__(self):
-		print(help_content)
+		print("https://github.com/AzizKpln/RBAPG")
 	def logging_module_errors(self):
 		logging.basicConfig(level=logging.DEBUG)
 	@property

@@ -3,7 +3,7 @@ from setuptools import setup,find_packages
 
 setup(
     name="RBAPG",
-    version="0.0.1",
+    version="0.0.5",
     packages=find_packages(),
     url="https://github.com/AzizKpln/RBAPG",
     license="GPL-3.0",
