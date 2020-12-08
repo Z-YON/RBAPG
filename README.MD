@@ -2,7 +2,7 @@
 
 # RBAPG
 
-# ![](module_image/RBAPG.PNG)
+# ![](module_image/RBAPG.png)
 
 ->RBAPG is the abbreviation of "Rule Based Attack Password Generator".
 
