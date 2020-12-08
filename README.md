@@ -12,6 +12,11 @@
 
 
 # MODULE USAGE
+
+* INSTALL The Module
+
+> pip3 install RBAPG
+
 * Call The Module
 
 > import RBAPG
