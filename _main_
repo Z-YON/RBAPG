@@ -1,0 +1,5 @@
+# Signature 
+
+If name == "__main__"
+   If == true
+     Return __init__ 
